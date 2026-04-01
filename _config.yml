@@ -1,0 +1,12 @@
+title: Renaud Wellens
+description: Lead Tech · CTO · Expert en transformation numérique
+url: ""
+baseurl: ""
+
+exclude:
+  - CLAUDE.md
+  - .claude/
+  - .agents/
+  - Gemfile
+  - Gemfile.lock
+  - "*.sh"
