@@ -1,48 +1,49 @@
-# alvernia/website — Site personnel de Renaud Wellens
+# alvernia/website — Renaud Wellens personal site
 
-## Contexte
-Site personnel minimaliste hébergé sur GitHub Pages via Jekyll.
-Destiné aux **recruteurs et employeurs**.
+## Context
+Minimalist personal site hosted on GitHub Pages via Jekyll.
+Targeted at **recruiters and employers**.
 
-## Identité
-- **Nom** : Renaud Wellens
-- **Marque** : AlverniA
-- **Tagline FR** : Lead Tech · CTO · Expert en transformation numérique
-- **Tagline EN** : Tech Lead · CTO · Digital Transformation Expert
-- **Localisation** : Liège, Belgique
+## Identity
+- **Name**: Renaud Wellens
+- **Brand**: AlverniA
+- **Tagline FR**: Lead Tech · CTO · Expert en transformation numérique
+- **Tagline EN**: Tech Lead · CTO · Digital Transformation Expert
+- **Brand tagline**: Exceeding expectations, one project at a time.
+- **Location**: Liège, Belgium
 
-## Liens
-- GitHub : https://github.com/alvernia
-- LinkedIn : https://www.linkedin.com/in/rwellens
-- Email : rwellens@gmail.com
+## Links
+- GitHub: https://github.com/alvernia
+- LinkedIn: https://www.linkedin.com/in/rwellens
+- Email: hello@alvernia.io
 
-## Domaines
-Les domaines alvernia.io, alvernia.be (et autres) sont disponibles.
-Le repo est `alvernia/alvernia` — le domaine custom sera configuré sur GitHub Pages.
+## Domains
+Domains alvernia.io, alvernia.be (and others) are available.
+The repo is `alvernia/alvernia` — the custom domain will be configured on GitHub Pages.
 
-## Stack technique
-- **Jekyll** (static site generator, natif sur GitHub Pages)
-- **CSS custom** — pas de framework, pas de dépendance JS
-- `prefers-color-scheme` pour le mode dark/light automatique (palette AlverniA)
-- Toggle manuel FR/EN (pas de lib i18n, juste du JS vanilla minimal)
+## Tech stack
+- **Jekyll** (static site generator, natively supported by GitHub Pages)
+- **Custom CSS** — no framework, no JS dependency
+- `prefers-color-scheme` for automatic dark/light mode (AlverniA palette)
+- Manual FR/EN language toggle (no i18n lib, just minimal vanilla JS)
 
-## Palette couleurs (AlverniA)
-- Navy foncé : `#0d2d3e`
-- Teal/bleu acier : `#3a7fa8`
-- Blanc : `#ffffff`
-- Gris clair (light mode bg) : `#f8fafc`
+## Color palette (AlverniA)
+- Dark navy: `#002b49`
+- Cyan technical blue: `#00cfff`
+- White: `#ffffff`
 
 ## Assets
-- Logo icône (montagne en cercle) : `assets/img/logo-icon.png`
-- Wordmark AlverniA : `assets/img/logo-wordmark.png`
-  → à copier depuis `../Branding/`
+- Icon logo (mountain in circle): `assets/img/logo-icon.png`
+- AlverniA wordmark: `assets/img/logo-wordmark.png`
+  → to be copied from `../Branding/`
 
-## Structure Jekyll cible
+## Jekyll structure
 ```
 website/
 ├── CLAUDE.md
+├── README.md
 ├── _config.yml
-├── index.html          ← page unique
+├── index.html          ← single page
 ├── assets/
 │   ├── css/
 │   │   └── main.css
@@ -50,11 +51,15 @@ website/
 │       ├── logo-icon.png
 │       └── logo-wordmark.png
 └── _data/
-    └── i18n.yml        ← textes FR/EN
+    └── i18n.yml        ← FR/EN strings
 ```
 
-## Contraintes
-- **Une seule page** — pas de navigation, pas de blog
-- **Zéro dépendance** — pas de npm, pas de bundler, pas de framework CSS
-- **Minimaliste** — nom, tagline, 3 liens (GitHub / LinkedIn / Contact), toggle langue
-- Contenu centré verticalement sur la page
+## Constraints
+- **Single page** — no navigation, no blog
+- **Zero dependency** — no npm, no bundler, no CSS framework
+- **Minimalist** — name, tagline, 3 links (GitHub / LinkedIn / Contact), language toggle
+- Content vertically centered on the page
+
+## Git rules
+- Always commit documents (CLAUDE.md, README.md, etc.) in English
+- Always ask for user confirmation before any `git --force` or `git push --force`
