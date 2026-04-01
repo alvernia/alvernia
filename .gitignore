@@ -1,5 +1,6 @@
 # Claude Code — settings locaux
 .claude/
+.agents/
 
 # Jekyll
 _site/
