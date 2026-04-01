@@ -1,25 +1,26 @@
 /* ─── Palette AlverniA ─────────────────────────────────────── */
+/* dark navy: #002b49 · cyan: #00cfff · white: #ffffff          */
 :root {
-  --bg:           #091e2e;
-  --bg-card:      #0d2438;
-  --text:         #e8edf2;
-  --text-muted:   #7a9cb5;
-  --accent:       #3a9fc0;
-  --accent-muted: rgba(58, 159, 192, 0.12);
-  --border:       rgba(58, 127, 168, 0.18);
-  --link-hover-bg: rgba(58, 159, 192, 0.1);
+  --bg:           #001929;
+  --bg-card:      #002b49;
+  --text:         #ffffff;
+  --text-muted:   #6ab8d4;
+  --accent:       #00cfff;
+  --accent-muted: rgba(0, 207, 255, 0.12);
+  --border:       rgba(0, 207, 255, 0.18);
+  --link-hover-bg: rgba(0, 207, 255, 0.08);
 }
 
 @media (prefers-color-scheme: light) {
   :root {
-    --bg:           #f0f4f8;
+    --bg:           #f0f7ff;
     --bg-card:      #ffffff;
-    --text:         #0a1f2e;
-    --text-muted:   #4a6880;
-    --accent:       #1b6b90;
-    --accent-muted: rgba(27, 107, 144, 0.08);
-    --border:       rgba(13, 45, 62, 0.1);
-    --link-hover-bg: rgba(27, 107, 144, 0.07);
+    --text:         #002b49;
+    --text-muted:   #336a8a;
+    --accent:       #0099cc;
+    --accent-muted: rgba(0, 153, 204, 0.08);
+    --border:       rgba(0, 43, 73, 0.12);
+    --link-hover-bg: rgba(0, 153, 204, 0.07);
   }
 }
 
@@ -66,21 +67,19 @@ body {
   animation: fadeUp 0.5s cubic-bezier(0.22, 1, 0.36, 1) 0.05s both;
 }
 
-/* ─── Company ───────────────────────────────────────────────── */
+/* ─── Company wordmark ──────────────────────────────────────── */
 .company {
   font-family: 'Syne', sans-serif;
-  font-size: 0.72rem;
-  font-weight: 600;
-  letter-spacing: 0.25em;
-  text-transform: uppercase;
-  color: var(--text-muted);
-  margin-bottom: 0.6rem;
+  font-size: clamp(1.3rem, 5vw, 1.6rem);
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  color: var(--text);
+  margin-bottom: 0.5rem;
   animation: fadeUp 0.5s cubic-bezier(0.22, 1, 0.36, 1) 0.08s both;
 }
 
-.company-ia {
+.company-a {
   color: var(--accent);
-  font-weight: 800;
 }
 
 /* ─── Name ─────────────────────────────────────────────────── */
