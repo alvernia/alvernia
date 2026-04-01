@@ -59,7 +59,3 @@ website/
 - **Zero dependency** — no npm, no bundler, no CSS framework
 - **Minimalist** — name, tagline, 3 links (GitHub / LinkedIn / Contact), language toggle
 - Content vertically centered on the page
-
-## Git rules
-- Always commit documents (CLAUDE.md, README.md, etc.) in English
-- Always ask for user confirmation before any `git --force` or `git push --force`
