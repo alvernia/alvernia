@@ -66,12 +66,30 @@ body {
   animation: fadeUp 0.5s cubic-bezier(0.22, 1, 0.36, 1) 0.05s both;
 }
 
+/* ─── Company ───────────────────────────────────────────────── */
+.company {
+  font-family: 'Syne', sans-serif;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-bottom: 0.6rem;
+  animation: fadeUp 0.5s cubic-bezier(0.22, 1, 0.36, 1) 0.08s both;
+}
+
+.company-ia {
+  color: var(--accent);
+  font-weight: 800;
+}
+
 /* ─── Name ─────────────────────────────────────────────────── */
 .name {
-  font-size: clamp(2rem, 9vw, 2.75rem);
-  font-weight: 800;
-  letter-spacing: -0.03em;
-  line-height: 1.05;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(2.6rem, 11vw, 3.6rem);
+  font-weight: 300;
+  letter-spacing: 0.01em;
+  line-height: 1.1;
   color: var(--text);
   margin-bottom: 0.75rem;
   animation: fadeUp 0.5s cubic-bezier(0.22, 1, 0.36, 1) 0.1s both;
@@ -79,13 +97,25 @@ body {
 
 /* ─── Tagline ───────────────────────────────────────────────── */
 .tagline {
-  font-size: 0.8rem;
+  font-size: 0.75rem;
   font-weight: 400;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.07em;
   text-transform: uppercase;
   color: var(--accent);
-  margin-bottom: 2rem;
+  margin-bottom: 0.6rem;
   animation: fadeUp 0.5s cubic-bezier(0.22, 1, 0.36, 1) 0.15s both;
+}
+
+/* ─── Brand tagline ──────────────────────────────────────────── */
+.brand-tagline {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 0.95rem;
+  font-weight: 400;
+  font-style: italic;
+  letter-spacing: 0.01em;
+  color: var(--text-muted);
+  margin-bottom: 2rem;
+  animation: fadeUp 0.5s cubic-bezier(0.22, 1, 0.36, 1) 0.18s both;
 }
 
 /* ─── Divider ───────────────────────────────────────────────── */
