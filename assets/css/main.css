@@ -1,26 +1,26 @@
 /* ─── Palette AlverniA ─────────────────────────────────────── */
-/* dark navy: #002b49 · cyan: #00cfff · white: #ffffff          */
+/* dark navy: #0B2C3C · teal: #0A96BA · white: #ffffff          */
 :root {
-  --bg:           #001929;
-  --bg-card:      #002b49;
+  --bg:           #071c26;
+  --bg-card:      #0B2C3C;
   --text:         #ffffff;
-  --text-muted:   #6ab8d4;
-  --accent:       #00cfff;
-  --accent-muted: rgba(0, 207, 255, 0.12);
-  --border:       rgba(0, 207, 255, 0.18);
-  --link-hover-bg: rgba(0, 207, 255, 0.08);
+  --text-muted:   #6aacbf;
+  --accent:       #0A96BA;
+  --accent-muted: rgba(10, 150, 186, 0.12);
+  --border:       rgba(10, 150, 186, 0.18);
+  --link-hover-bg: rgba(10, 150, 186, 0.08);
 }
 
 @media (prefers-color-scheme: light) {
   :root {
-    --bg:           #f0f7ff;
+    --bg:           #f0f6f8;
     --bg-card:      #ffffff;
-    --text:         #002b49;
-    --text-muted:   #336a8a;
-    --accent:       #0099cc;
-    --accent-muted: rgba(0, 153, 204, 0.08);
-    --border:       rgba(0, 43, 73, 0.12);
-    --link-hover-bg: rgba(0, 153, 204, 0.07);
+    --text:         #0B2C3C;
+    --text-muted:   #2d5a6e;
+    --accent:       #0A96BA;
+    --accent-muted: rgba(10, 150, 186, 0.08);
+    --border:       rgba(11, 44, 60, 0.12);
+    --link-hover-bg: rgba(10, 150, 186, 0.07);
   }
 }
 
@@ -58,28 +58,12 @@ body {
   animation: fadeUp 0.5s cubic-bezier(0.22, 1, 0.36, 1) both;
 }
 
-/* ─── Logo ─────────────────────────────────────────────────── */
-.logo {
-  width: 64px;
-  height: 64px;
+/* ─── Logo portrait ────────────────────────────────────────── */
+.logo-portrait {
+  width: 140px;
+  height: auto;
   margin-bottom: 1.75rem;
-  opacity: 0.9;
   animation: fadeUp 0.5s cubic-bezier(0.22, 1, 0.36, 1) 0.05s both;
-}
-
-/* ─── Company wordmark ──────────────────────────────────────── */
-.company {
-  font-family: 'Syne', sans-serif;
-  font-size: clamp(1.3rem, 5vw, 1.6rem);
-  font-weight: 700;
-  letter-spacing: 0.01em;
-  color: var(--text);
-  margin-bottom: 0.5rem;
-  animation: fadeUp 0.5s cubic-bezier(0.22, 1, 0.36, 1) 0.08s both;
-}
-
-.company-a {
-  color: var(--accent);
 }
 
 /* ─── Name ─────────────────────────────────────────────────── */

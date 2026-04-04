@@ -28,14 +28,12 @@ The repo is `alvernia/alvernia` — the custom domain will be configured on GitH
 - Manual FR/EN language toggle (no i18n lib, just minimal vanilla JS)
 
 ## Color palette (AlverniA)
-- Dark navy: `#002b49`
-- Cyan technical blue: `#00cfff`
+- Dark navy: `#0B2C3C`
+- Teal blue: `#0A96BA`
 - White: `#ffffff`
 
 ## Assets
-- Icon logo (mountain in circle): `assets/img/logo-icon.png`
-- AlverniA wordmark: `assets/img/logo-wordmark.png`
-  → to be copied from `../Branding/`
+- Portrait logo (icon + wordmark): `assets/img/logo-portrait.svg`
 
 ## Jekyll structure
 ```
